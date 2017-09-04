@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "broken": "eslint --config node_modules/kcd-scripts/dist/config/eslintrc.js --ignore-path node_modules/kcd-scripts/dist/config/eslintignore .",
+    "working": "eslint --config node_modules/kcd-scripts/dist/config/eslintrc.js ."
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "kcd-scripts": "0.0.6"
+  }
+}
