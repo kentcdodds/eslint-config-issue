@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "broken": "eslint --config node_modules/kcd-scripts/dist/config/eslintrc.js --ignore-path node_modules/kcd-scripts/dist/config/eslintignore .",
-    "working": "eslint --config node_modules/kcd-scripts/dist/config/eslintrc.js ."
+    "broken": "eslint --ignore-path node_modules/kcd-scripts/dist/config/eslintignore .",
+    "working": "eslint ."
   },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
